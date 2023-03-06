@@ -162,7 +162,7 @@ button{
     text-align: center;
     grid-auto-flow: row;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1em, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     padding-top: 2em;
     padding-left: 2em;
 }
