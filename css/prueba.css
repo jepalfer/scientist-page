@@ -182,6 +182,10 @@ button{
     padding: 0.5em;
     grid-row: 1;
     grid-column: 1 / 3;
+
+    border-right-style: solid;
+    border-right-color: rgba(60, 63, 66, 0.5);
+    border-right-width: 0.125em;
 }
 
 #Left-main{
