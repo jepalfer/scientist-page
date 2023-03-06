@@ -78,7 +78,7 @@ header{
 
 #menusHeader{
     text-align: center;
-    margin-top: 1.5em;
+    margin-top: 0em;
     margin-right: 0em;
     margin-bottom: 0em;
     margin-left: 0em;
@@ -86,21 +86,47 @@ header{
 
 li{
     display: inline;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-bottom: 0em;
 }
 
-#LinkInicio{
-    color:black;
-    text-decoration: none;
+#btn-inicio{
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    height: 4em;
+    width: 4em;
+    background-color: #3C3F42;
+    margin: 0em;
+    padding: 0em;
 }
 
-#LinkInicio:hover{
+
+ul{
+    margin: 0em;
+}
+
+#btn-list{
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    height: 4em;
+    width: 12em;
+    background-color: #3C3F42;
+    margin: 0em;
+    padding: 0em;
+}
+
+#btn-inicio:hover{
     transition: 0.3s;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
-#LinkInicio:not(:hover){
+#btn-inicio:not(:hover){
+    transition: 0.3s;
+}
+
+#btn-list:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#btn-list:not(:hover){
     transition: 0.3s;
 }
 
