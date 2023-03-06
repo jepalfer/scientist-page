@@ -2,6 +2,7 @@ body{
     padding: 0em;
     margin: 0em;
     background-color: darkgray;
+    height: 100%;
 }
 
 .Grid{
@@ -9,6 +10,7 @@ body{
     grid-template-columns: repeat(1em, minmax(1em, auto));
     gap: 0.5em;
     grid-auto-rows: minmax(0.5em, auto);
+    height: 100%;
 }
 
 .Flex{
@@ -161,7 +163,7 @@ button{
     text-align: center;
     grid-auto-flow: row;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(1em, 1fr);
     padding-top: 2em;
     padding-left: 2em;
 }
@@ -171,7 +173,7 @@ button{
     text-decoration: none;
     color: black;
 }
-/*
+
 #left-main-1{
     
     grid-row: 1;
@@ -209,13 +211,15 @@ button{
     
     grid-row: 3;
     grid-column: 1;
-}*/
+}
 
 .scientist-pic{
     width: 50%;
     height: 50%;
     border-radius: 1em 1em 0em 0em;
+    overflow: hidden;
     border-style: solid;
+    object-fit: cover;
     border-bottom: 0;
 }
 
@@ -228,6 +232,7 @@ button{
     margin-top: 0em;
     border-radius: 0em 0em 1em 1em;
     width: 50%;
+    left: 0;
 }
 
 
@@ -249,11 +254,14 @@ button{
 ******************************/
 
 footer{
+    margin-top: auto;
     grid-row: 3;
+    padding-top: 5em;
 }
 
 #Grid-footer{
     background-color: black;
+    margin-top: auto;
     text-align: center;
     grid-row: 3;
     grid-column: 1 / 3;
