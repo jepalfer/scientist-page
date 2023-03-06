@@ -239,6 +239,11 @@ button{
     grid-column: 4;
 }
 
+#Span-right{
+    word-break: break-all;
+    font-size: smaller;
+}
+
 /*****************************
             Footer
 ******************************/
