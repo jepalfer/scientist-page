@@ -151,7 +151,6 @@ button{
 }
 
 #Left-main{
-    background-color: gray;
     margin: 1em;
     padding: 0.5em;
     grid-row: 1;
@@ -251,7 +250,6 @@ button{
 
 
 #Right-main{
-    background-color: gray;
     margin: 1em;
     text-align: justify;
     grid-row: 1;
