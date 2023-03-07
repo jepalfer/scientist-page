@@ -35,7 +35,7 @@ p{
 }
 
 .pinfo{
-    color:#3C3F42;
+    color:black;
 }
 
 h2{
@@ -255,6 +255,8 @@ img{
 
 .socialButton{
     background-color: darkgray;
+    width: auto;
+    height: auto;
 }
 
 .social{

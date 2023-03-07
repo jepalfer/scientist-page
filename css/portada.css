@@ -208,8 +208,22 @@ button{
     color: black;
 }
 
+.left-main-content:hover{
+    transition: 0.5s;
+    transform: scale(1.25);
+}
+
+.left-main-content:not(:hover){
+    transition: 0.5s;
+}
+
+.scientist-link{
+    width: fit-content;
+    height: fit-content;
+}
+
+
 #left-main-1{
-    
     grid-row: 1;
     grid-column: 1;
 }
