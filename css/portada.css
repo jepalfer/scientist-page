@@ -104,6 +104,10 @@ ul{
     margin: 0em;
 }
 
+#linkInicio{
+    text-decoration: none;
+}
+
 #btn-list{
     border-radius: 0.5em 0.5em 0.5em 0.5em;
     height: 4em;
@@ -259,7 +263,7 @@ button{
     border-radius: 1em 1em 0em 0em;
     overflow: hidden;
     border-style: solid;
-    object-fit: cover;
+    object-fit:fill;
     border-bottom: 0;
 }
 

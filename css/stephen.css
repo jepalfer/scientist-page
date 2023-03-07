@@ -90,19 +90,10 @@ li{
     padding-right: 1em;
 }
 
-#LinkInicio{
-    color:black;
+#linkInicio{
     text-decoration: none;
 }
 
-#LinkInicio:hover{
-    transition: 0.3s;
-    color: white;
-}
-
-#LinkInicio:not(:hover){
-    transition: 0.3s;
-}
 
 #Desplegable{
     display: inline-block;
