@@ -5,7 +5,7 @@
         <title>
             Ciencia en el mundo
         </title>
-        <link href="../css/prueba.css" rel="stylesheet" type="text/css">
+        <link href="../css/einstein.css" rel="stylesheet" type="text/css">
         <link href="../Imagenes/logoBar.png" rel="icon" type="image/png">
     </head>
     <body>
@@ -25,10 +25,14 @@
                     <div id="d3">
                         <nav id="menusHeader">
                             <ul>
-                                <li id="Inicio"> <a href="prueba.html" id="LinkInicio">Inicio</a></li>
+                                <li id="Inicio">
+                                    <a href="portada.html" id="linkInicio">
+                                        <button id="btn-inicio" class="btn-menu">Inicio</button>
+                                    </a>
+                                </li>
                                 <li id="MenuDesplegable">
                                     <div id="Desplegable">
-                                        <button>Lista de científicos</button>
+                                        <button id="btn-list" class="btn-menu">Lista de científicos</button>
                                         <div id="Contenido-desplegable">
                                             <span id="Nombres-de-cientificos">
                                                 <a href="marie_curie.html" target="_blank">
@@ -69,16 +73,81 @@
             </header>
             <main>
                 <div id="Grid-main" class="Grid">
-                    <nav id="Left-main" class="Grid">
-                        
+                    <nav id="Left-main">
+                        <article id="einstein-info">
+                            <nav id="pictures">
+                                <img src="../Imagenes/Einstein/AlbertEinstein.jpg" id="scientist-pic1" class="scientist-pic">
+                            </nav>
+                            <span id="span-info">
+                                <h1>
+                                    Albert Einstein
+                                </h1>
+                                <h2>
+                                    14/03/1879, Ulm(Alemania) - 18/04/1955, Princeton(Nueva Jersey)
+                                </h2>
+                                <p class="pinfo">
+                                    Albert Einstein fue un físico alemán de origen judío, nacionalizado después suizo, austriaco y estadounidense. 
+                                    Se le considera el científico más importante, conocido y popular del siglo xx.
+                                </p>
+                                <p class="pinfo">
+                                    En 1905, cuando era un joven físico desconocido, empleado en la Oficina de Patentes de Berna, publicó su 
+                                    teoría de la relatividad especial.
+                                    Como una consecuencia lógica de esta teoría, dedujo la ecuación de la física más conocida a nivel popular: 
+                                    la equivalencia masa-energía, E=mc². Ese año, publicó otros trabajos que sentarían algunas de las bases de la física 
+                                    estadística y de la mecánica cuántica.
+                                </p>
+                                <nav id="pictures">
+                                    <img src="../Imagenes/Einstein/istockphoto-515369312-612x612.jpg" id="scientist-pic2" class="scientist-pic">
+                                </nav>
+
+                                <p class="pinfo">
+                                    En 1915, presentó la teoría de la relatividad general, en la que reformuló por completo el concepto de la gravedad.
+                                    En 1919, cuando las observaciones británicas de un eclipse solar confirmaron sus predicciones acerca de la curvatura
+                                    de la luz, fue idolatrado por la prensa.
+                                </p>
+
+                                <p class="pinfo">
+                                    Por sus explicaciones sobre el efecto fotoeléctrico y sus numerosas contribuciones a la física teórica, en 1921 obtuvo 
+                                    el Premio Nobel de Física y no por la Teoría de la Relatividad y ante el ascenso del nazismo, Einstein 
+                                    abandonó Alemania en diciembre de 1932 con destino a Estados Unidos, donde se dedicó a la docencia en el 
+                                    Institute for Advanced Study. Se nacionalizó estadounidense en 1940. Durante sus últimos años trabajó 
+                                    por integrar en una misma teoría la fuerza gravitatoria y la electromagnética.
+                                </p>
+
+                            </span>
+                            
+                            <nav id="buttons" class="Grid">
+                                <button id="tw" class="socialButton">
+                                    <a href="" target="_blank">
+                                        <img src="../Imagenes/buttons/twitter.png" class="social">
+                                    </a>
+                                </button>
+                                <button id="fb" class="socialButton">
+                                    <a href="" target="_blank">
+                                        <img src="../Imagenes/buttons/fb.png" class="social">
+                                    </a>
+                                </button>
+                                <button id="ig" class="socialButton">
+                                    <a href="" target="_blank">
+                                        <img src="../Imagenes/buttons/ig.png" class="social">
+                                    </a>
+                                </button>
+                                <button id="print" class="socialButton">
+                                    <a href="" target="_blank">
+                                        <img src="../Imagenes/buttons/printer.png" class="social">
+                                    </a></button>
+                            </nav>
+                            
+
+                        </article>
                     </nav>
                     <nav id="Right-main" class="Grid">
                         <span id="Span-right">
                             <p>
                                 Enlaces de interés
                             </p>
-                            <a href="https://genshin-impact.fandom.com/es/wiki/Dottore" target="_blank">
-                                https://genshin-impact.fandom.com/es/wiki/Dottore
+                            <a href="https://es.wikipedia.org/wiki/Albert_Einstein" target="_blank">
+                                https://es.wikipedia.org/wiki/Albert_Einstein
                             </a>
                         </span>
                     </nav>
