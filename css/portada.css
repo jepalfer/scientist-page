@@ -147,6 +147,7 @@ ul{
     overflow: auto;
     box-shadow: 0em 6em 6em 6em rgba(0, 0, 0, 0.1);
 }
+
 #Contenido-desplegable a{
     display: block;
     color:blue;
@@ -209,12 +210,12 @@ button{
 }
 
 .left-main-content:hover{
-    transition: 0.5s;
+    transition: 0.2s;
     transform: scale(1.25);
 }
 
 .left-main-content:not(:hover){
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .scientist-link{
