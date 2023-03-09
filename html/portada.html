@@ -9,8 +9,10 @@
         <link href="../Imagenes/logoBar.png" rel="icon" type="image/png">
     </head>
     <body>
+        <!--Creamos un grid que englobe toda la página-->
         <section id="Grid-global" class="Grid">
             <header>
+                <!--Creamos un grid para posicionar los distintos elementos del header-->
                 <section id="Grid-header" class="Grid">
                     <section id="logoSection">
                         <img src="../Imagenes/logo6464.png" id="logo">
@@ -62,6 +64,9 @@
                                                 <a href="dottore.html">
                                                     Dottore
                                                 </a>
+                                                <a href="hipatia.html">
+                                                    Hipatia de Alejandría
+                                                </a>
                                             </span>
                                         </section>
                                     </section>
@@ -71,14 +76,16 @@
                     </section>
                 </section>
             </header>
-            <section id="Grid-main" class="Grid">
-                <main>    
-                    <nav id="Left-main" class="Grid">
-                        <section id="left-main-1" class="left-main-content">
-                            <a href="einstein.html" class="scientist-link">
-                                <img src="../Imagenes/Einstein/AlbertEinstein.jpg" id="Albert-pic" class="scientist-pic">
-                            </a>
-                            <section>
+            <!--La parte central también tendrá un grid, para el main (izq) y enlaces (dcha)-->
+                <section id="Grid-main" class="Grid">
+                    <main>
+                        <!--Necesitamos un grid para posicionar las fotos de los distintos científicos-->
+                        <nav id="Left-main" class="Grid">
+                            <!--Cada científico (section) tendrá una foto y un texto (enlaces)-->
+                            <section id="left-main-1" class="left-main-content">
+                                <a href="einstein.html" class="scientist-link">
+                                    <img src="../Imagenes/Einstein/AlbertEinstein.jpg" id="Albert-pic" class="scientist-pic">
+                                </a>
                                 <span>
                                     <p class="scientist-names">
                                         <a href="einstein.html" class="scientist-link">
@@ -87,124 +94,137 @@
                                     </p>
                                 </span>
                             </section>
-                        </section>
-                        <section id="left-main-2" class="left-main-content">
-                            <a href="darwin.html" class="scientist-link">
-                                <img src="../Imagenes/Darwin/descarga.jfif" id="Darwin-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="darwin.html" class="scientist-link">
-                                            Charles Darwin
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-3" class="left-main-content">
-                            <a href="marie_curie.html" class="scientist-link">
-                                <img src="../Imagenes/MarieCurie/Marie_Curie_(1900).jpg" id="Marie-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="marie_curie.html" class="scientist-link">
-                                            Marie Curie
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-4" class="left-main-content">
-                            <a href="mendel.html" class="scientist-link">
-                                <img src="../Imagenes/Mendel/Gregor_Mendel.png" id="Mendel-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="mendel.html" class="scientist-link">
-                                            Gregor Mendel
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-5" class="left-main-content">
-                            <a href="newton.html" class="scientist-link">
-                                <img src="../Imagenes/Newton/newton_joven.jpg" id="Newton-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="newton.html" class="scientist-link">
-                                            Isaac Newton
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-6" class="left-main-content">
-                            <a href="senku.html" class="scientist-link">
-                                <img src="../Imagenes/senku/senku1.png" id="Senku-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="senku.html" class="scientist-link">
-                                            Ishigami Senku
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-7" class="left-main-content">
-                            <a href="walter_white.html" class="scientist-link">
-                                <img src="../Imagenes/WalterWhite/Walter_White_S5B.png" id="Walter-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="walter_white.html" class="scientist-link">
-                                            Walter White
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-8" class="left-main-content">
-                            <a href="stephen.html" class="scientist-link">
-                                <img src="../Imagenes/StephenHawking/Stephen_Hawking.StarChild.jpg" id="Stephen-pic" class="scientist-pic">
-                            </a>
-                            <section>
-                                <span>
-                                    <p class="scientist-names">
-                                        <a href="stephen.html" class="scientist-link">
-                                            Stephen Hawking
-                                        </a>
-                                    </p>
-                                </span>
-                            </section>
-                        </section>
-                        <section id="left-main-9" class="left-main-content">
-                            <a href="dottore.html" class="scientist-link">
-                                <img src="../Imagenes/Dottore/NPC_Il_Dottore_(Genshin_impact).png" id="Stephen-pic" class="scientist-pic">
-                            </a>
+                            <section id="left-main-2" class="left-main-content">
+                                <a href="darwin.html" class="scientist-link">
+                                    <img src="../Imagenes/Darwin/descarga.jfif" id="Darwin-pic" class="scientist-pic">
+                                </a>
                                 <section>
                                     <span>
                                         <p class="scientist-names">
-                                            <a href="dottore.html" class="scientist-link">
-                                                Dottore
+                                            <a href="darwin.html" class="scientist-link">
+                                                Charles Darwin
                                             </a>
                                         </p>
                                     </span>
                                 </section>
-                        </section>
-                    </nav>
+                            </section>
+                            <section id="left-main-3" class="left-main-content">
+                                <a href="marie_curie.html" class="scientist-link">
+                                    <img src="../Imagenes/MarieCurie/Marie_Curie_(1900).jpg" id="Marie-pic" class="scientist-pic">
+                                </a>
+                                <section>
+                                    <span>
+                                        <p class="scientist-names">
+                                            <a href="marie_curie.html" class="scientist-link">
+                                                Marie Curie
+                                            </a>
+                                        </p>
+                                    </span>
+                                </section>
+                            </section>
+                            <section id="left-main-4" class="left-main-content">
+                                <a href="mendel.html" class="scientist-link">
+                                    <img src="../Imagenes/Mendel/Gregor_Mendel.png" id="Mendel-pic" class="scientist-pic">
+                                </a>
+                                <section>
+                                    <span>
+                                        <p class="scientist-names">
+                                            <a href="mendel.html" class="scientist-link">
+                                                Gregor Mendel
+                                            </a>
+                                        </p>
+                                    </span>
+                                </section>
+                            </section>
+                            <section id="left-main-5" class="left-main-content">
+                                <a href="newton.html" class="scientist-link">
+                                    <img src="../Imagenes/Newton/newton_joven.jpg" id="Newton-pic" class="scientist-pic">
+                                </a>
+                                <section>
+                                    <span>
+                                        <p class="scientist-names">
+                                            <a href="newton.html" class="scientist-link">
+                                                Isaac Newton
+                                            </a>
+                                        </p>
+                                    </span>
+                                </section>
+                            </section>
+                            <section id="left-main-6" class="left-main-content">
+                                <a href="senku.html" class="scientist-link">
+                                    <img src="../Imagenes/senku/senku1.png" id="Senku-pic" class="scientist-pic">
+                                </a>
+                                <section>
+                                    <span>
+                                        <p class="scientist-names">
+                                            <a href="senku.html" class="scientist-link">
+                                                Ishigami Senku
+                                            </a>
+                                        </p>
+                                    </span>
+                                </section>
+                            </section>
+                            <section id="left-main-7" class="left-main-content">
+                                <a href="walter_white.html" class="scientist-link">
+                                    <img src="../Imagenes/WalterWhite/Walter_White_S5B.png" id="Walter-pic" class="scientist-pic">
+                                </a>
+                                <section>
+                                    <span>
+                                        <p class="scientist-names">
+                                            <a href="walter_white.html" class="scientist-link">
+                                                Walter White
+                                            </a>
+                                        </p>
+                                    </span>
+                                </section>
+                            </section>
+                            <section id="left-main-8" class="left-main-content">
+                                <a href="stephen.html" class="scientist-link">
+                                    <img src="../Imagenes/StephenHawking/Stephen_Hawking.StarChild.jpg" id="Stephen-pic" class="scientist-pic">
+                                </a>
+                                <section>
+                                    <span>
+                                        <p class="scientist-names">
+                                            <a href="stephen.html" class="scientist-link">
+                                                Stephen Hawking
+                                            </a>
+                                        </p>
+                                    </span>
+                                </section>
+                            </section>
+                            <section id="left-main-9" class="left-main-content">
+                                <a href="dottore.html" class="scientist-link">
+                                    <img src="../Imagenes/Dottore/NPC_Il_Dottore_(Genshin_impact).png" id="Stephen-pic" class="scientist-pic">
+                                </a>
+                                    <section>
+                                        <span>
+                                            <p class="scientist-names">
+                                                <a href="dottore.html" class="scientist-link">
+                                                    Dottore
+                                                </a>
+                                            </p>
+                                        </span>
+                                    </section>
+                            </section>
+                            <section id="left-main-10" class="left-main-content">
+                                <a href="hipatia.html" class="scientist-link">
+                                    <img src="../Imagenes/Hipatia/Hipatia.jpg.jfif" id="Stephen-pic" class="scientist-pic">
+                                </a>
+                                    <section>
+                                        <span>
+                                            <p class="scientist-names">
+                                                <a href="hipatia.html" class="scientist-link">
+                                                    Hipatia de Alejandría
+                                                </a>
+                                            </p>
+                                        </span>
+                                    </section>
+                            </section>
+                        </nav>
                     </main>
                     <nav id="Right-main" class="Grid">
                         <span id="Span-right">
-                            <p>
+                            <p id="Span-right-p">
                                 Enlaces de interés
                             </p>
                             <a href="https://es.wikipedia.org/wiki/Marie_Curie" target="_blank">
@@ -236,6 +256,9 @@
                             </a><br>
                             <a href="https://genshin-impact.fandom.com/es/wiki/Dottore" target="_blank">
                                 https://genshin-impact.fandom.com/es/wiki/Dottore
+                            </a><br>
+                            <a href="https://es.wikipedia.org/wiki/Hipatia" target="_blank">
+                                https://es.wikipedia.org/wiki/Hipatia
                             </a><br>
                         </span>
                     </nav>
