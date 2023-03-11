@@ -60,11 +60,12 @@ header{
     font-family:monospace;
 }
 
-#logoSection{
-    text-align: center;
+#logo{
+    float: left;
     margin: 2em 0em 0em 1em;
     grid-row: 1;
-    grid-column: 1 / 2;
+    grid-column: 2;
+    width: 5%;
 }
 
 #span-header{
