@@ -214,14 +214,14 @@ img{
     margin: 0;
     padding: 0em;
     float: right;
-    shape-outside: url(../Imagenes/senku/senku1.png);
+    shape-outside: url(../Imagenes/Dottore/PNJ_Dottore.png);
 }
 #scientist-pic2{
     width: 7em;
     margin: 0 auto;
     padding: 0em;
     float: right;
-    shape-outside: url(../Imagenes/senku/Senku-looking-casual.avif);
+    shape-outside: url(../Imagenes/Dottore/NPC_Il_Dottore_\(Genshin_impact\).png);
 }
 
 .scientist-pic{

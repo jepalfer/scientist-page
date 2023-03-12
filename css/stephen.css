@@ -216,14 +216,14 @@ img{
     margin: 0;
     padding: 0em;
     float: right;
-    shape-outside: url(../Imagenes/Einstein/AlbertEinstein.jpg);
+    shape-outside: url(../Imagenes/StephenHawking/Stephen_Hawking.StarChild.jpg);
 }
 #scientist-pic2{
     width: 7em;
     margin: 0 auto;
     padding: 0em;
     float: right;
-    shape-outside: url(../Imagenes/Einstein/istockphoto-515369312-612x612.jpg);
+    shape-outside: url(../Imagenes/StephenHawking/160119124831_stephen_hawking_624x415_pa.jpg);
 }
 
 .scientist-pic{
