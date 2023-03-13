@@ -258,7 +258,11 @@ img{
 }
 
 #comment-section{
-    display: none;
+    
+    border-style: solid;
+    border-width: 0.01em;
+    border-color: black;
+    font-size: smaller;
 }
 
 #comment-section-button{
