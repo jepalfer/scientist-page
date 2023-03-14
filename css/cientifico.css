@@ -254,18 +254,21 @@ img{
 }
 
 #Span-right{
+    grid-row: 1;
     word-break: break-all;
+    height: 75%;
 }
 
 #comment-section{
-    
     border-style: solid;
     border-width: 0.01em;
     border-color: black;
+    height: 100%;
     font-size: smaller;
 }
 
 #comment-section-button{
+    grid-row: 3;
     height: 25%;
     background-color: #E2D1F9;
     border-style: solid;
@@ -319,7 +322,12 @@ img{
     grid-row: 1;
     grid-column: 4;
 }
-#Span-right-p{
+
+#comment-grid{
+    margin: 0.5em;
+}
+
+.Span-right-p{
     color: black;
 }
 
