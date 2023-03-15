@@ -258,8 +258,17 @@ img{
     word-break: break-all;
     height: 75%;
 }
-
+#comment-input{
+    background-color: #c2b9ce;
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    height: 25%;
+    resize: none;
+}
 #comment-section{
+    position: relative;
+    visibility: hidden;
     border-style: solid;
     border-width: 0.01em;
     border-color: black;
@@ -326,6 +335,7 @@ img{
 #comment-grid{
     margin: 0.5em;
 }
+
 
 .Span-right-p{
     color: black;
