@@ -27,17 +27,18 @@ function checkMail(){
         valid = 1;
     }
 
-    console.log(valid);
-
     return valid;
 }
 
 function censoreContent(){
     let texto = comentario.value;
+    var index;
     censoredWords.forEach(element => {
-        const regex = new RegExp(element);
-        const asteriscos = "*".repeat(element.length);
-        comentario.value = texto.replace(regex, asteriscos);
+        if (index = texto.indexOf(element) != -1){
+            let newString = texto.replace(element, '*'.repeat(element.length));
+            comentario.value = newString;
+            comentario.textContent = newString;
+        }
     });
 }
 
