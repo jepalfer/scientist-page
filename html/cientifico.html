@@ -134,6 +134,7 @@
                                     <img src="../Imagenes/buttons/printer.png" class="social">
                                 </a>
                             </nav>
+                            <button id="comment-section-button">Ver comentarios</button>
                             
 
                         </article>
@@ -149,15 +150,60 @@
                         </span>
                         <section id="comment-section">
                             <section id="comment-section-grid" class="Grid">
-                                
+                                <section id="comments">
+
+                                    <section class="comment">
+                                        <h2 class="nombre">
+                                            Pepe González
+                                        </h2>
+                                        <h5 class="fecha">
+                                            16:05:00 05/01/2020
+                                        </h5>
+                                        <span class="comment-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                        </span>
+
+                                    </section>
+                                    <section class="comment">
+                                        <h2 class="nombre">
+                                            Marisa Ramos
+                                        </h2>
+                                        <h5 class="fecha">
+                                            23:04:01 13/02/2023
+                                        </h5>
+                                        <span class="comment-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                                            incididunt ut labore et dolore magna aliqua.
+                                        </span>
+                                    </section>
+                                </section>
                             </section>
-                            <!--<textarea id="comment-input"></textarea>-->
-
                         </section>
-
-                        <button id="comment-section-button">Ver comentarios</button>
                     </nav>
+                    <section id="comment-main">
+                        <section id="comment-send-content">
+                            <span>
+                                <p id="titulo-com-section">
+                                    ENVÍA TU COMENTARIO
+                                </p>
+                                <form name="nameForm">
+                                        Nombre
+                                    <input type="text" id="Name" name="Name" /><br>
+                                </form>
+                                <form name="mailForm">
+                                    Correo electrónico
+                                    <input type="text" id="email" name="email" />
+                                </form>
+                            </span>
+                            <textarea id="comment-input"></textarea>
+                            <button id="send-comment-button">Enviar comentario</button>
+                        </section>
+                    </section>
                 </article>
+
+
             </main>
             <footer>
                 <article id="Grid-footer" class="Grid">
